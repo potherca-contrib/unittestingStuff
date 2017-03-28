@@ -2,7 +2,7 @@
 
 namespace WordWrapper;
 
-class WordWrapper implements \RopBot\WordWrapInterface
+class WordWrapper implements \PhpHooligans\Workshop\Tdd\WordWrapInterface
 {
     
     public function __construct($p_max_length = null)
